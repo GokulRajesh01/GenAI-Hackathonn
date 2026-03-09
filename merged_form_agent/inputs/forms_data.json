@@ -1,0 +1,90 @@
+[
+  {
+    "form_id": "PASSPORT_NEW",
+    "form_name": "New Passport Application",
+    "description": "Application form for obtaining a fresh new passport for Indian citizens. Used when applying for the first time.",
+    "keywords": "new passport, fresh passport, first passport, passport application",
+    "url": "https://www.passportindia.gov.in/AppOnlineProject/online/newPassportApplication",
+    "fields": {
+      "applicant_full_name": "Full legal name of the applicant",
+      "date_of_birth": "Date of birth in DD/MM/YYYY format",
+      "place_of_birth": "City and state where the applicant was born",
+      "gender": "Gender — Male / Female / Other",
+      "father_name": "Full name of the father",
+      "mother_name": "Full name of the mother",
+      "present_address": "Current residential address",
+      "mobile_number": "10-digit mobile number",
+      "email_id": "Email address",
+      "aadhaar_number": "12-digit Aadhaar number"
+    }
+  },
+  {
+    "form_id": "PASSPORT_RENEWAL",
+    "form_name": "Passport Renewal Application",
+    "description": "Application form for renewing an existing passport that is about to expire or has expired.",
+    "keywords": "passport renewal, renew passport, expired passport",
+    "url": "https://www.passportindia.gov.in/AppOnlineProject/online/reissuePassportApplication",
+    "fields": {
+      "old_passport_number": "Passport number of the current passport",
+      "old_passport_expiry_date": "Expiry date of the current passport",
+      "applicant_full_name": "Full legal name of the applicant",
+      "date_of_birth": "Date of birth in DD/MM/YYYY format",
+      "present_address": "Current residential address",
+      "mobile_number": "10-digit mobile number",
+      "email_id": "Email address",
+      "reason_for_reissue": "Reason — Expiry / Damage / Change of details"
+    }
+  },
+  {
+    "form_id": "PAN_NEW",
+    "form_name": "PAN Card Application (Form 49A)",
+    "description": "Application form for allotment of new PAN card for Indian citizens.",
+    "keywords": "PAN card, new PAN, form 49A, permanent account number, tax card",
+    "url": "https://www.onlineservices.nsdl.com/paam/endUserRegisterContact.html",
+    "fields": {
+      "full_name": "Full name of the applicant",
+      "date_of_birth": "Date of birth in DD/MM/YYYY format",
+      "father_name": "Full name of the father",
+      "gender": "Gender — Male / Female / Other",
+      "aadhaar_number": "12-digit Aadhaar number",
+      "address": "Address for PAN card delivery",
+      "mobile_number": "10-digit mobile number",
+      "email_id": "Email address",
+      "source_of_income": "Primary source of income — Salary / Business / Other"
+    }
+  },
+  {
+    "form_id": "VOTER_ID_NEW",
+    "form_name": "Voter ID Registration (Form 6)",
+    "description": "Application form for new voter registration to get Voter ID card for citizens who have turned 18.",
+    "keywords": "voter id, voter registration, form 6, election card, new voter",
+    "url": "https://voters.eci.gov.in/",
+    "fields": {
+      "full_name": "Full name of the applicant",
+      "date_of_birth": "Date of birth in DD/MM/YYYY format",
+      "gender": "Gender — Male / Female / Other",
+      "father_or_husband_name": "Name of father or husband",
+      "current_address": "Current residential address",
+      "state": "State of residence",
+      "district": "District of residence",
+      "mobile_number": "10-digit mobile number"
+    }
+  },
+  {
+    "form_id": "DRIVING_LICENSE_NEW",
+    "form_name": "Driving License Application (Form 4)",
+    "description": "Application form for new driving license. Applicant must hold a valid learner license.",
+    "keywords": "driving license, new DL, form 4, driver license, RTO, learner to permanent",
+    "url": "https://parivahan.gov.in/parivahan/",
+    "fields": {
+      "applicant_full_name": "Full name of the applicant",
+      "date_of_birth": "Date of birth in DD/MM/YYYY format",
+      "gender": "Gender — Male / Female / Other",
+      "blood_group": "Blood group of the applicant",
+      "learner_license_number": "Number of existing learner license",
+      "vehicle_class": "Vehicle class — LMV / MC / HMV",
+      "present_address": "Current residential address",
+      "mobile_number": "10-digit mobile number"
+    }
+  }
+]

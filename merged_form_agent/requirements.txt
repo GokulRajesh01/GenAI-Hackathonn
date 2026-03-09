@@ -1,0 +1,6 @@
+# Core AI and Request Handling
+requests>=2.31.0
+python-dotenv>=1.0.0
+
+# PDF Generation and Filling
+PyMuPDF>=1.23.0
